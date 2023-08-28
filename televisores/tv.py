@@ -7,7 +7,7 @@ class TV:
         self.__precio = 500
         self.__volumen = 1
         self.__control = None
-        TV.numTV += 1
+        TV.__numTV += 1
 
     def getMarca(self):
         return self.__marca
