@@ -2,11 +2,9 @@ class Marca:
     def __init__(self, nombre):
         self.__nombre = nombre
     
-    @property
-    def nombre(self):
+    def getNombre(self):
         return self.__nombre
 
-    @nombre.setter
-    def nombre(self, nombre):
+    def setNombre(self, nombre):
         self.__nombre = nombre
         
