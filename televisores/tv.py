@@ -1,3 +1,6 @@
+from marca import Marca
+from control import Control
+
 class TV:
     numTV = 0
     def __init__(self, marca:Marca, estado:bool):
