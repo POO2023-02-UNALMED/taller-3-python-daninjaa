@@ -70,5 +70,5 @@ class TV:
         return self.numTV
     
     @staticmethod
-    def setNumTV(numTV):
+    def setNumTV(self, numTV):
         TV.numTV = numTV
